@@ -141,7 +141,7 @@ Example:
 
 ```markdown
 <p align="center">
-<img src="Images/XLM-Roberta_architecture.png" width="850">
+<img src="D:\Hate_Speech/XLM-Roberta_architecture.png" width="850">
 </p>
 ```
 
