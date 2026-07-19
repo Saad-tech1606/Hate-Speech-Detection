@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hate Speech Detector</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Hate Speech Detector</h1>
+      <p class="subtitle">Powered by XLM-RoBERTa</p>
+    </header>
+
+    <section class="instagram-section">
+      <div class="toggle-row">
+        <div>
+          <div class="toggle-title">Instagram live scan</div>
+          <div class="toggle-hint">Highlight hate speech on Instagram</div>
+        </div>
+        <label class="switch">
+          <input type="checkbox" id="igScanToggle" checked>
+          <span class="slider"></span>
+        </label>
+      </div>
+      <label class="threshold-label" for="thresholdInput">
+        Confidence threshold: <span id="thresholdValue">50%</span>
+      </label>
+      <input type="range" id="thresholdInput" min="30" max="90" value="50" step="5">
+      <button id="activateBtn" type="button" class="full-width">Activate on this Instagram tab</button>
+      <button id="rescanBtn" type="button" class="secondary full-width">Rescan current Instagram tab</button>
+    </section>
+
+    <section class="input-section">
+      <label for="textInput">Enter text to analyze</label>
+      <textarea
+        id="textInput"
+        rows="6"
+        placeholder="Paste or type text here..."
+        maxlength="5000"
+      ></textarea>
+      <div class="actions">
+        <button id="analyzeBtn" type="button">Analyze</button>
+        <button id="clearBtn" type="button" class="secondary">Clear</button>
+      </div>
+    </section>
+
+    <section id="statusSection" class="status hidden"></section>
+
+    <section id="resultSection" class="result hidden">
+      <div id="resultBadge" class="badge"></div>
+      <div class="metrics">
+        <div class="metric">
+          <span class="metric-label">Confidence</span>
+          <span id="confidenceValue" class="metric-value">—</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Non-Hate</span>
+          <span id="nonHateValue" class="metric-value">—</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Hate</span>
+          <span id="hateValue" class="metric-value">—</span>
+        </div>
+      </div>
+      <div class="progress-bar">
+        <div id="hateBar" class="progress-fill"></div>
+      </div>
+    </section>
+
+    <footer>
+      <a href="options.html" target="_blank">Settings</a>
+      <span id="apiStatus" class="api-status">Checking API...</span>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

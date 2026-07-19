@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Extension Settings</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Extension Settings</h1>
+    <p class="subtitle">Configure the local Python API connection.</p>
+
+    <form id="settingsForm">
+      <label for="apiUrl">API URL</label>
+      <input
+        id="apiUrl"
+        type="url"
+        placeholder="http://127.0.0.1:8000"
+        required
+      >
+      <p class="hint">Default local server: <code>http://127.0.0.1:8000</code></p>
+
+      <label for="confidenceThreshold" style="margin-top:16px">
+        Instagram confidence threshold (0.40–0.90)
+      </label>
+      <input
+        id="confidenceThreshold"
+        type="number"
+        min="0.4"
+        max="0.9"
+        step="0.05"
+        value="0.55"
+        required
+      >
+      <p class="hint">Only highlight text when hate confidence is at or above this value.</p>
+
+      <label class="checkbox-row" style="margin-top:16px; display:flex; gap:8px; align-items:center;">
+        <input id="instagramScanEnabled" type="checkbox" checked>
+        Enable Instagram live scanning by default
+      </label>
+
+      <div class="actions">
+        <button type="submit">Save</button>
+        <button id="testBtn" type="button" class="secondary">Test Connection</button>
+      </div>
+    </form>
+
+    <p id="statusMessage" class="status hidden"></p>
+  </main>
+
+  <script src="options.js"></script>
+</body>
+</html>
