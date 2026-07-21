@@ -637,6 +637,6 @@ You are free to use, modify, and distribute this project with proper attribution
 
 ### If you like this project, don't forget to ⭐ Star the Repository!
 
-Made with ❤️ by **Fatima Zafar Rizvi & Md Saad Alam**
+Made with ❤️ by the collaborative efforts of **Md Saad Alam, Harsh Sharma, Fatima Zafar Rizvi & Sneha Singh**
 
 </div>
