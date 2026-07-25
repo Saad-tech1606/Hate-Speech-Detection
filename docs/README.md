@@ -92,22 +92,35 @@ The Chrome Extension continuously scans Instagram comments in real time and high
 
 ### Hate Speech Detection
 
-![Prediction Hate](assets/screenshots/prediction_hate.png)
+<p align="center">
+    <img src="https://raw.githubusercontent.com/Saad-tech1606/Hate-Speech-Detection/main/assets/screenshots/prediction_hate.png" alt="Hate Speech Prediction" width="90%">
+</p>
+
+---
 
 ### Non-Hate Speech Detection
 
-![Prediction Non Hate](assets/screenshots/prediction_non_hate.png)
+<p align="center">
+    <img src="https://raw.githubusercontent.com/Saad-tech1606/Hate-Speech-Detection/main/assets/screenshots/prediction_non_hate.png" alt="Non-Hate Speech Prediction" width="90%">
+</p>
+
+---
 
 ### Successful Prediction
 
-![Prediction Success](assets/screenshots/prediction_success.png)
+<p align="center">
+    <img src="https://raw.githubusercontent.com/Saad-tech1606/Hate-Speech-Detection/main/assets/screenshots/prediction_success.png" alt="Successful Prediction" width="90%">
+</p>
+
+---
 
 ### Additional Hate Speech Example
 
-![Prediction Hate Example](assets/screenshots/prediction_hate_example.png)
+<p align="center">
+    <img src="https://raw.githubusercontent.com/Saad-tech1606/Hate-Speech-Detection/main/assets/screenshots/prediction_hate_example.png" alt="Additional Hate Speech Example" width="90%">
+</p>
 
 These examples demonstrate the model's ability to accurately classify both hateful and non-hateful text while providing prediction confidence.
-
 ---
 
 # 📑 Table of Contents
@@ -166,9 +179,8 @@ Although this project is trained on an **English binary hate speech dataset**, X
 The proposed system uses a **fine-tuned XLM-RoBERTa Transformer** for binary hate speech classification. The architecture follows a complete NLP pipeline that transforms raw user text into contextual embeddings before generating a prediction.
 
 <p align="center">
-<img src="docs/XLM-Roberta_architecture.png" width="95%">
+    <img src="https://raw.githubusercontent.com/Saad-tech1606/Hate-Speech-Detection/main/docs/XLM-Roberta_architecture.png" alt="XLM-RoBERTa Model Architecture" width="95%">
 </p>
-
 ---
 
 ## 📌 Architecture Pipeline
