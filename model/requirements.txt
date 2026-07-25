@@ -1,0 +1,7 @@
+transformers==4.53.3
+torch>=2.0.0
+safetensors>=0.4.3
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.0.0
+Pillow>=10.0.0
