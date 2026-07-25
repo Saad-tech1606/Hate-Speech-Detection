@@ -75,11 +75,8 @@ This project addresses these challenges by leveraging **Transformer-based contex
 ## 🌐 Chrome Extension in Action
 
 <p align="center">
-
-<img src="assets/screenshots/instagram_demo_1.png" width="48%">
-
-<img src="assets/screenshots/instagram_demo_2.png" width="48%">
-
+  <img src="assets/screenshots/instagram_demo_1.png" width="48%" alt="Instagram Demo 1">
+  <img src="assets/screenshots/instagram_demo_2.png" width="48%" alt="Instagram Demo 2">
 </p>
 
 The Chrome Extension continuously scans Instagram comments and highlights potentially hateful content while displaying prediction confidence and scan statistics.
