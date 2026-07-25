@@ -748,7 +748,9 @@ The trained model was evaluated using multiple standard classification metrics.
 
 # 📊 Validation Accuracy
 
-![Validation Accuracy](assets/Validation%20Accuracy%20Curve.png)
+<p align="center">
+    <img src="https://raw.githubusercontent.com/Saad-tech1606/Hate-Speech-Detection/main/assets/Validation%20Accuracy%20Curve.png" alt="Validation Accuracy Curve" width="90%">
+</p>
 
 The validation accuracy steadily improved throughout training, indicating effective learning and strong generalization performance.
 
@@ -756,7 +758,9 @@ The validation accuracy steadily improved throughout training, indicating effect
 
 # 📉 Training vs Validation Loss
 
-![Training vs Validation Loss](assets/Training%20vs%20Validation%20Loss%20Curve.png)
+<p align="center">
+    <img src="https://raw.githubusercontent.com/Saad-tech1606/Hate-Speech-Detection/main/assets/Training%20vs%20Validation%20Loss%20Curve.png" alt="Training vs Validation Loss Curve" width="90%">
+</p>
 
 The training and validation loss curves demonstrate stable convergence with no major signs of overfitting.
 
@@ -764,7 +768,9 @@ The training and validation loss curves demonstrate stable convergence with no m
 
 # 📉 Loss Curve
 
-![Loss Curve](assets/Loss%20Curve.png)
+<p align="center">
+    <img src="https://raw.githubusercontent.com/Saad-tech1606/Hate-Speech-Detection/main/assets/Loss%20Curve.png" alt="Loss Curve" width="90%">
+</p>
 
 The training loss consistently decreased as the model learned increasingly meaningful contextual representations.
 
@@ -772,15 +778,19 @@ The training loss consistently decreased as the model learned increasingly meani
 
 # 📊 ROC Curve
 
-![ROC Curve](assets/ROC%20curve.png)
+<p align="center">
+    <img src="https://raw.githubusercontent.com/Saad-tech1606/Hate-Speech-Detection/main/assets/ROC%20curve.png" alt="ROC Curve" width="90%">
+</p>
 
-The ROC curve illustrates the model's ability to distinguish between hate speech and non-hate speech across different thresholds.
+The ROC curve illustrates the model's ability to distinguish between hate speech and non-hate speech across different classification thresholds.
 
 ---
 
 # 📊 Precision–Recall Curve
 
-![Precision Recall Curve](assets/Precision-Recall%20Curve.png)
+<p align="center">
+    <img src="https://raw.githubusercontent.com/Saad-tech1606/Hate-Speech-Detection/main/assets/Precision-Recall%20Curve.png" alt="Precision-Recall Curve" width="90%">
+</p>
 
 The Precision–Recall curve highlights the model's effectiveness in identifying hate speech while maintaining high precision.
 
@@ -788,9 +798,20 @@ The Precision–Recall curve highlights the model's effectiveness in identifying
 
 # 📊 Confusion Matrix
 
-![Confusion Matrix](assets/Confusion_matrix.png)
+<p align="center">
+    <img src="https://raw.githubusercontent.com/Saad-tech1606/Hate-Speech-Detection/main/assets/Confusion_matrix.png" alt="Confusion Matrix" width="75%">
+</p>
 
-The confusion matrix summarizes the classification results.
+The confusion matrix summarizes the classification results by showing the number of correct and incorrect predictions made by the model. It provides a clear view of True Positives, True Negatives, False Positives, and False Negatives, helping evaluate the classifier's overall performance.
+
+### Highlights
+
+- ✅ High True Positive Rate
+- ✅ High True Negative Rate
+- ✅ Low False Positive Rate
+- ✅ Low False Negative Rate
+
+---
 
 ### Highlights
 
