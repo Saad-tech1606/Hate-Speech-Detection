@@ -79,11 +79,12 @@ This project addresses these limitations by leveraging **Transformer-based conte
 
 ## 🌐 Chrome Extension in Action
 
-![Instagram Demo 1](assets/screenshots/instagram_demo_1.png)
+<p align="center">
+    <img src="https://raw.githubusercontent.com/Saad-tech1606/Hate-Speech-Detection/main/assets/screenshots/instagram_demo_1.png" alt="Instagram Demo 1" width="48%">
+    <img src="https://raw.githubusercontent.com/Saad-tech1606/Hate-Speech-Detection/main/assets/screenshots/instagram_demo_2.png" alt="Instagram Demo 2" width="48%">
+</p>
 
-![Instagram Demo 2](assets/screenshots/instagram_demo_2.png)
-
-The Chrome Extension continuously scans Instagram comments and highlights potentially hateful content while displaying prediction confidence and scan statistics.
+The Chrome Extension continuously scans Instagram comments in real time and highlights potentially hateful content while displaying the predicted label, confidence score, and scan statistics.
 
 ---
 
