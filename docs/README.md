@@ -29,6 +29,33 @@ A Transformer-Based Hate Speech Detection System with FastAPI & Chrome Extension
 </p>
 
 ---
+# 📑 Table of Contents
+
+- [🌟 Project Overview](#-project-overview)
+- [✨ Key Features](#-key-features)
+- [🎯 Problem Statement](#-problem-statement)
+- [🧠 Why XLM-RoBERTa?](#-why-xlm-roberta)
+- [🏗️ Model Architecture](#️-model-architecture)
+- [⚙️ Project Workflow](#️-project-workflow)
+- [🛠️ Technology Stack](#️-technology-stack)
+- [📂 Project Structure](#-project-structure)
+- [🚀 Installation](#-installation)
+- [▶️ Running the Project](#️-running-the-project)
+- [🌐 Chrome Extension Setup](#-chrome-extension-setup)
+- [🔌 API Documentation](#-api-documentation)
+- [📦 Dataset](#-dataset)
+- [🤖 Model Details](#-model-details)
+- [📈 Performance Evaluation](#-performance-evaluation)
+- [📸 Screenshots](#-screenshots)
+- [🎯 Applications](#-applications)
+- [🚀 Future Enhancements](#-future-enhancements)
+- [🤝 Contributors](#-contributors)
+- [📜 License](#-license)
+- [📚 Citation](#-citation)
+- [👨‍💻 Author](#-author)
+- [🙏 Acknowledgements](#-acknowledgements)
+
+---
 
 # 🌟 Project Overview
 
@@ -123,33 +150,7 @@ The Chrome Extension continuously scans Instagram comments in real time and high
 These examples demonstrate the model's ability to accurately classify both hateful and non-hateful text while providing prediction confidence.
 ---
 
-# 📑 Table of Contents
 
-- [🌟 Project Overview](#-project-overview)
-- [✨ Key Features](#-key-features)
-- [🎯 Problem Statement](#-problem-statement)
-- [🧠 Why XLM-RoBERTa?](#-why-xlm-roberta)
-- [🏗️ Model Architecture](#️-model-architecture)
-- [⚙️ Project Workflow](#️-project-workflow)
-- [🛠️ Technology Stack](#️-technology-stack)
-- [📂 Project Structure](#-project-structure)
-- [🚀 Installation](#-installation)
-- [▶️ Running the Project](#️-running-the-project)
-- [🌐 Chrome Extension Setup](#-chrome-extension-setup)
-- [🔌 API Documentation](#-api-documentation)
-- [📦 Dataset](#-dataset)
-- [🤖 Model Details](#-model-details)
-- [📈 Performance Evaluation](#-performance-evaluation)
-- [📸 Screenshots](#-screenshots)
-- [🎯 Applications](#-applications)
-- [🚀 Future Enhancements](#-future-enhancements)
-- [🤝 Contributors](#-contributors)
-- [📜 License](#-license)
-- [📚 Citation](#-citation)
-- [👨‍💻 Author](#-author)
-- [🙏 Acknowledgements](#-acknowledgements)
-
----
 # 🧠 Why XLM-RoBERTa?
 
 Traditional machine learning algorithms such as **Naïve Bayes**, **Support Vector Machine (SVM)**, and **Logistic Regression**, as well as sequential deep learning models like **RNN** and **LSTM**, often struggle to understand the contextual meaning of words. These models generally rely on handcrafted features or process text sequentially, which limits their ability to capture long-range dependencies and subtle semantic relationships.
