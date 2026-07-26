@@ -1066,8 +1066,7 @@ Passionate about:
 ### Connect with Me
 
 - **GitHub:** https://github.com/Saad-tech1606
-- **LinkedIn:** *(Add your LinkedIn profile URL)*
-- **Email:** *(Add your professional email)*
+- **LinkedIn:** https://www.linkedin.com/in/md-saad-alam-41a0bb256/
 
 ---
 
