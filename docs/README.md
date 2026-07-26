@@ -814,15 +814,6 @@ The confusion matrix summarizes the classification results by showing the number
 
 ---
 
-### Highlights
-
-- ✅ High True Positives
-- ✅ High True Negatives
-- ✅ Low False Positives
-- ✅ Low False Negatives
-
----
-
 # 📊 Confidence Distribution
 
 <p align="center">
