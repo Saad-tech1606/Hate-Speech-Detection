@@ -974,7 +974,7 @@ This project was developed collaboratively.
 |----------|------|------|
 | [@Saad-tech1606](https://github.com/Saad-tech1606) | **Md Saad Alam** | Project Lead • Research • XLM RoBERTa Model Development • Dataset Pre-Processing • Chrome Extension Development |
 | [@fatimazafarrizvi](https://github.com/fatimazafarrizvi) | **Fatima Rizvi** |Research • Rnn Model Development • XLM RoBERTa Model Development • Validation|
-| [@harshsharma1927](https://github.com/harshsharma1927) | **Harsh Sharma** | Dataset Pre-Processing • FastAPI Backend • Chrome Extension Development |
+| [@harshsharma1927](https://github.com/harshsharma1927) | **Harsh Sharma** | Dataset Pre-Processing • Documentation • Chrome Extension Development |
 | [@snehasingh-3](https://github.com/snehasingh-3) | **Sneha Singh** | Testing & Validation • Documentation |
 
 ---
